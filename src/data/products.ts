@@ -1,0 +1,133 @@
+export interface Product {
+  id: string;
+  name: string;
+  description: string;
+  price: number;
+  category: string;
+  image_url: string;
+  stock: number;
+  featured: boolean;
+}
+
+export const PRODUCTS: Product[] = [
+  {
+    id: '1',
+    name: 'Silk Evening Dress',
+    description: 'Elegant silk evening dress with flowing silhouette, perfect for special occasions and formal events',
+    price: 299.99,
+    category: 'dresses',
+    image_url: 'https://images.pexels.com/photos/1055691/pexels-photo-1055691.jpeg?auto=compress&cs=tinysrgb&w=800',
+    stock: 15,
+    featured: true,
+  },
+  {
+    id: '2',
+    name: 'Leather Crossbody Bag',
+    description: 'Premium Italian leather crossbody bag with adjustable strap and multiple compartments',
+    price: 189.99,
+    category: 'accessories',
+    image_url: 'https://images.pexels.com/photos/1152077/pexels-photo-1152077.jpeg?auto=compress&cs=tinysrgb&w=800',
+    stock: 25,
+    featured: true,
+  },
+  {
+    id: '3',
+    name: 'Classic White Sneakers',
+    description: 'Minimalist white leather sneakers with comfortable cushioned sole, perfect for everyday wear',
+    price: 129.99,
+    category: 'shoes',
+    image_url: 'https://images.pexels.com/photos/1598505/pexels-photo-1598505.jpeg?auto=compress&cs=tinysrgb&w=800',
+    stock: 40,
+    featured: true,
+  },
+  {
+    id: '4',
+    name: 'Cashmere Turtleneck',
+    description: 'Luxurious cashmere turtleneck sweater in classic neutral tones, soft and warm',
+    price: 249.99,
+    category: 'tops',
+    image_url: 'https://images.pexels.com/photos/2853592/pexels-photo-2853592.jpeg?auto=compress&cs=tinysrgb&w=800',
+    stock: 30,
+    featured: false,
+  },
+  {
+    id: '5',
+    name: 'High-Waist Trousers',
+    description: 'Tailored high-waist trousers with wide leg cut, professional and stylish',
+    price: 159.99,
+    category: 'bottoms',
+    image_url: 'https://images.pexels.com/photos/1926769/pexels-photo-1926769.jpeg?auto=compress&cs=tinysrgb&w=800',
+    stock: 35,
+    featured: false,
+  },
+  {
+    id: '6',
+    name: 'Statement Earrings',
+    description: 'Bold geometric statement earrings in brushed gold finish',
+    price: 79.99,
+    category: 'accessories',
+    image_url: 'https://images.pexels.com/photos/3946820/pexels-photo-3946820.jpeg?auto=compress&cs=tinysrgb&w=800',
+    stock: 50,
+    featured: false,
+  },
+  {
+    id: '7',
+    name: 'Ankle Boots',
+    description: 'Sleek leather ankle boots with block heel, versatile for any season',
+    price: 219.99,
+    category: 'shoes',
+    image_url: 'https://images.pexels.com/photos/336372/pexels-photo-336372.jpeg?auto=compress&cs=tinysrgb&w=800',
+    stock: 20,
+    featured: true,
+  },
+  {
+    id: '8',
+    name: 'Midi Wrap Dress',
+    description: 'Flattering midi wrap dress in abstract print, adjustable tie waist',
+    price: 139.99,
+    category: 'dresses',
+    image_url: 'https://images.pexels.com/photos/1926620/pexels-photo-1926620.jpeg?auto=compress&cs=tinysrgb&w=800',
+    stock: 22,
+    featured: false,
+  },
+  {
+    id: '9',
+    name: 'Structured Blazer',
+    description: 'Sharp structured blazer with padded shoulders and satin lining',
+    price: 279.99,
+    category: 'tops',
+    image_url: 'https://images.pexels.com/photos/1895019/pexels-photo-1895019.jpeg?auto=compress&cs=tinysrgb&w=800',
+    stock: 18,
+    featured: false,
+  },
+  {
+    id: '10',
+    name: 'Wide Brim Hat',
+    description: 'Elegant wide brim felt hat, perfect for sun protection with style',
+    price: 89.99,
+    category: 'accessories',
+    image_url: 'https://images.pexels.com/photos/1055691/pexels-photo-1055691.jpeg?auto=compress&cs=tinysrgb&w=800',
+    stock: 45,
+    featured: false,
+  },
+  {
+    id: '11',
+    name: 'Pleated Maxi Skirt',
+    description: 'Flowing pleated maxi skirt in luxe fabric with elastic waistband',
+    price: 169.99,
+    category: 'bottoms',
+    image_url: 'https://images.pexels.com/photos/1926620/pexels-photo-1926620.jpeg?auto=compress&cs=tinysrgb&w=800',
+    stock: 28,
+    featured: false,
+  },
+  {
+    id: '12',
+    name: 'Strappy Heels',
+    description: 'Elegant strappy heels with thin heel, perfect for evening occasions',
+    price: 179.99,
+    category: 'shoes',
+    image_url: 'https://images.pexels.com/photos/336372/pexels-photo-336372.jpeg?auto=compress&cs=tinysrgb&w=800',
+    stock: 30,
+    featured: false,
+  },
+];
